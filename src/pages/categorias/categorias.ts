@@ -46,4 +46,9 @@ export class CategoriasPage {
       this.navCtrl.setRoot('HomePage');
     }
   }
+
+  showProdutos() {
+    this.navCtrl.push('ProdutosPage');
+  }
+
 }
